@@ -1,0 +1,14 @@
+.statement {
+    display: flex;
+}
+
+.statement label{
+    margin-right: 1.5rem;
+}
+
+.statement input{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    width : 80%;
+}

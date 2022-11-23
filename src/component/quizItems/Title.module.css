@@ -1,0 +1,14 @@
+.title {
+    display: flex;
+}
+
+.title label{
+    margin-right: 1.5rem;
+}
+
+.title input{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    width : 80%;
+}

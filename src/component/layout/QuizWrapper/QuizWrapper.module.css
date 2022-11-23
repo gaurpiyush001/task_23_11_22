@@ -1,0 +1,34 @@
+.quizwrap{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 2rem;
+}
+
+.quizwrap div{
+    margin: 1.5rem;
+}
+
+.btn{
+
+    margin: 1rem;
+    width: 10rem;
+    border: none;
+    background-color: #FF8FB1;
+    padding: 1rem;
+    border-radius: 2rem;
+    transition: .3s all;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: translateY(-.5rem);
+}
+
+.btn:active{
+    transform: translateY(0);
+}
+
+.error{
+    color: red;
+}

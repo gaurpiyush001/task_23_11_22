@@ -1,0 +1,39 @@
+.option {
+    display: flex;
+}
+
+.option label{
+    margin-right: 1.5rem;
+    /* width: 20%; */
+}
+
+.option input{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    /* width : 50%; */
+}
+
+.check{
+    border-radius: 50%;
+}
+
+.remove{
+
+    margin-left: 1rem;
+width: 6rem;
+border: none;
+background-color: red;
+padding: .5rem;
+border-radius: 2rem;
+transition: .3s all;
+cursor: pointer;
+
+}
+.remove:hover {
+transform: translateY(-.5rem);
+}
+
+.remove:active{
+transform: translateY(0);
+}

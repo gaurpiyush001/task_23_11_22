@@ -1,0 +1,14 @@
+.answer {
+    display: flex;
+}
+
+.answer label{
+    margin-right: 1.5rem;
+}
+
+.answer input{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    width: 80%;
+}
